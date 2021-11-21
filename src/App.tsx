@@ -2,12 +2,12 @@ import "./styles.css";
 import React from "react";
 import useScrollSnap from "react-use-scroll-snap";
 import { useRef } from "react";
-import GlobalStyle from './common/globalStyles';
+import GlobalStyle from "./common/globalStyles";
 
-import Main from './components/Main'
-import Skills from './components/Skills'
-import Timeline from './components/Timeline'
-import Contact from './components/Contact'
+import Main from "./components/Main";
+import Skills from "./components/Skills";
+import Timeline from "./components/Timeline";
+import Contact from "./components/Contact";
 
 export default function App() {
   return (
@@ -21,7 +21,7 @@ function Container() {
   const scrollRef = useRef(null);
   useScrollSnap({
     ref: scrollRef,
-    duration: 50,
+    duration: 10,
     delay: 0,
   });
 

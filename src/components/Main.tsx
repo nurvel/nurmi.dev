@@ -19,12 +19,13 @@ const Container = styled.div`
   }
 
   // background: linear-gradient(rgb(72,0,72,0.8), rgb(192,72,72,0.8)), url(${_4});
+  
   background-image: url(${_2});
   background-size: cover;
   background-repeat: no-repeat;
-  position: absolute;
-  height: 100vh;
-  width: 100vw;
+  // position: absolute; // if set, flows over the next content
+  min-height: 100vh;
+  min-width: 100vw;
   background-position: center;
 `;
 
@@ -32,7 +33,6 @@ const Container = styled.div`
 
 export default function Main() {
   return (
-    <section>
       <Container className="section main">
         <h1>Veli-Pekka Nurmi</h1>
         <p>
@@ -41,6 +41,5 @@ export default function Main() {
           users. I'm based in Helsinki, Finland.
         </p>
       </Container>
-    </section>
   );
 }

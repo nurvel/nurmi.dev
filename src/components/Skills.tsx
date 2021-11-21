@@ -21,7 +21,7 @@ export default function Skills() {
           <td>PostgreSQL, MySQL, MongoDB</td>
         </tr>
         <tr>
-          <td>Tools & Utils:</td>
+          <td>Tools and Utils:</td>
           <td>Linux, Git, Docker, Maven, Webpack, Heroku</td>
         </tr>
       </table>
