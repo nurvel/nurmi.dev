@@ -1,10 +1,15 @@
-import React from 'react';
+import React from "react";
+import styled from "styled-components";
+import configData from "../common/config.json";
 
-function Timeline() {
-  return (
-    <div className="timeline">
-    </div>
-  );
+const Container = styled.div`
+  min-height: 100vh;
+  background-color: ${configData.THEME_COLORS.RED};
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+`;
+
+export default function Timeline() {
+  return <Container className="timeline">Timeline</Container>;
 }
-
-export default Timeline;

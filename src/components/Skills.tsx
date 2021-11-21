@@ -1,10 +1,15 @@
-import React from 'react';
+import React from "react";
+import styled from "styled-components";
+import configData from "../common/config.json";
 
-function Skills() {
-  return (
-    <div className="skills">
-    </div>
-  );
+const Container = styled.div`
+  min-height: 100vh;
+  background-color: ${configData.THEME_COLORS.YELLOW};
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+`;
+
+export default function Skills() {
+  return <Container className="skills">Skills</Container>;
 }
-
-export default Skills;

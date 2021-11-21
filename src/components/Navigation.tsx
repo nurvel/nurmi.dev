@@ -10,6 +10,6 @@ const Container = styled.div`
   // align-items: center;
 `;
 
-export default function Main() {
-  return <Container className="main">Main</Container>;
+export default function Navigation() {
+  return <Container className="navigation">Main</Container>;
 }

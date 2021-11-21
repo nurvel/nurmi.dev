@@ -1,7 +1,15 @@
 import React from "react";
+import styled from "styled-components";
+import configData from "../common/config.json";
 
-function Contact() {
-  return <div className="contact"></div>;
+const Container = styled.div`
+  min-height: 100vh;
+  background-color: ${configData.THEME_COLORS.YELLOW};
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+`;
+
+export default function Contact() {
+  return <Container className="contact">Contact</Container>;
 }
-
-export default Contact;
