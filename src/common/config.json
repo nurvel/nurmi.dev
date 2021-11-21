@@ -1,7 +1,16 @@
 {
   "THEME_COLORS": {
-    "BLUE": "#3cbcc3",
+    "CREAM": "#FDF5DF",
+    "BLUE": "#5EBEC4",
+    "CYAN": "#2CCCC3",
+    "PINK": "#F92C85",
     "YELLOW": "#eba63f",
-    "RED": "#e40c2b"
+    "VIOLET": "#9E15BF"
+  },
+  "BACKGROUND_IMAGES": {
+    "LIGHTS": "../assets/img/bg-lights.jpg",
+    "ROOM": "../assets/img/bg-room.jpg",
+    "SEA": "../assets/img/bg-sea.jpg",
+    "WALL": "../assets/img/bg-wall.jpg"
   }
 }

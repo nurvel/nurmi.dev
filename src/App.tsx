@@ -2,6 +2,8 @@ import "./styles.css";
 import React from "react";
 import useScrollSnap from "react-use-scroll-snap";
 import { useRef } from "react";
+import GlobalStyle from './common/globalStyles';
+
 import Main from './components/Main'
 import Skills from './components/Skills'
 import Timeline from './components/Timeline'
@@ -25,6 +27,7 @@ function Container() {
 
   return (
     <div>
+      <GlobalStyle />
       <section ref={scrollRef}>
         <Main />
         <Skills />
