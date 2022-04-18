@@ -21,7 +21,8 @@ const Container = styled.div`
 
     @media only screen and (max-width: 700px) {
       margin-top: 300px;
-      margin-left: 80px;
+      margin-left: 60px;
+      margin-right: 60px;
     }
   }
 
@@ -39,10 +40,12 @@ export default function About() {
         <p>
           My name is Veli-Pekka Nurmi. I'm software developer with a performance
           marketing background. I use my skill set to create and optimize
-          engaging web services. During the day I work as the head of R&D in
-          SaaShop. On my free time I like to try out new technologies, hike with
-          my dog, do jogging and play console games. I live in Helsinki,
-          Finland.
+          engaging web services.
+          <br />
+          <br />
+          During the day I work as the Head of R&D in SaaShop. On my free time I
+          like to try out new technologies, hike with my dog, do jogging and
+          play console games. I live in Helsinki, Finland.
           <br />
           <br />
           <br />
@@ -51,17 +54,15 @@ export default function About() {
             target="_blank"
             rel="noreferrer"
           >
-            LinkedIn{" "}
-          </a>{" "}
-          |
+            LinkedIn
+          </a>
+          &nbsp; | &nbsp;
           <a href="https://github.com/nurvel" target="_blank" rel="noreferrer">
-            {" "}
-            GitHub{" "}
-          </a>{" "}
-          |
+            GitHub
+          </a>
+          &nbsp; | &nbsp;
           <a href="mailto:nurmi.vp@gmail.com" target="_blank" rel="noreferrer">
-            {" "}
-            Email{" "}
+            Email
           </a>
         </p>
       </div>
