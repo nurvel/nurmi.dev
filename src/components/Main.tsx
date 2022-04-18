@@ -2,7 +2,10 @@ import React from "react";
 import configData from "../common/config.json";
 import styled from "styled-components";
 
-import _video from "../assets/img/bg-video.mp4";
+// import _video from "../assets/img/bg-video.mp4";
+// import _video_mobile_mp4 from "../assets/img/bg-video-mobile.mp4";
+// import _video_mobile_ogm from "../assets/img/bg-video-mobile.ogm";
+import _video_mobile_webm from "../assets/img/bg-video-mobile.webm";
 
 const Container = styled.div`
   background-color: ${configData.THEME_COLORS.DARK};
@@ -31,8 +34,9 @@ export default function Main() {
     <Container className="section main">
       <video
         loop
-        autoPlay
         muted
+        autoPlay
+        playsInline
         style={{
           position: "absolute",
           width: "100%",
@@ -44,8 +48,9 @@ export default function Main() {
           zIndex: "0",
         }}
       >
-        <source src={_video} type="video/mp4" />
-        <source src={_video} type="video/ogg" />
+        {/* <source src={_video_mobile_mp4} type="video/mp4" /> */}
+        {/* <source src={_video_mobile_ogm} type="video/ogg" /> */}
+        <source src={_video_mobile_webm} type="video/webm" />
         Your browser does not support the video tag.
       </video>
       <div className="hero">
