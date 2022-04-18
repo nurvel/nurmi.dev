@@ -3,7 +3,7 @@ import styled from "styled-components";
 import configData from "../common/config.json";
 
 const Container = styled.div`
-  background-color: ${configData.THEME_COLORS.YELLOW};
+  background-color: ${configData.THEME_COLORS.DARK};
 `;
 
 export default function Skills() {
