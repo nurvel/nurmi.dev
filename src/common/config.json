@@ -5,7 +5,8 @@
     "CYAN": "#2CCCC3",
     "PINK": "#F92C85",
     "YELLOW": "#eba63f",
-    "VIOLET": "#9E15BF"
+    "VIOLET": "#9E15BF",
+    "DARK": "#03040A"
   },
   "BACKGROUND_IMAGES": {
     "LIGHTS": "../assets/img/bg-lights.jpg",
