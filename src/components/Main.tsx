@@ -2,44 +2,63 @@ import React from "react";
 import configData from "../common/config.json";
 import styled from "styled-components";
 
-import _1 from "../assets/img/bg-lights.jpg";
-import _2 from "../assets/img/bg-room.jpeg";
-import _3 from "../assets/img/bg-sea.jpg";
-import _4 from "../assets/img/bg-wall.jpg";
-import _5 from "../assets/img/bg-leafs.jpeg";
+import _video from "../assets/img/bg-video.mp4";
 
 const Container = styled.div`
-background-color: ${configData.THEME_COLORS.CYAN};
+  background-color: ${configData.THEME_COLORS.DARK};
 
-  h1 {
-    /* color: #FFFFFF;
-    font-family: 'Comforter Brush', cursive;
-    font-size: 7rem;
-    opacity: 0.7;
-    transform: rotate(-10deg); */
+  .hero {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 650px;
+    min-width: 300px;
   }
 
-  background-image: url(${_2});
-  background-size: cover;
-  background-repeat: no-repeat;
+  // background-image: url();
+  /* background-size: cover;
+  background-repeat: no-repeat; */
   // position: absolute; // if set, flows over the next content
   min-height: 100vh;
   min-width: 100vw;
-  background-position: center; 
+  // background-position: center;
 `;
-
-// Technology, Marketing and Analytics
 
 export default function Main() {
   return (
     <Container className="section main">
-      <h1>Veli-Pekka Nurmi</h1>
-      <p>
-        I build and optimize web services where users love to return.
-      </p>
+      <video
+        loop
+        autoPlay
+        muted
+        style={{
+          position: "absolute",
+          width: "100%",
+          top: "50%",
+          left: "50%",
+          height: "100%",
+          objectFit: "cover",
+          transform: "translate(-50%, -50%)",
+          zIndex: "0",
+        }}
+      >
+        <source src={_video} type="video/mp4" />
+        <source src={_video} type="video/ogg" />
+        Your browser does not support the video tag.
+      </video>
+      <div className="hero">
+        <h1>I develop web services users love to return to.</h1>
+      </div>
     </Container>
   );
 }
 
-// I'm a software developer with a performance marketing background.
-// I'm based in Helsinki, Finland.
+// Technology, Marketing and Analytics
+
+// MAIN
+// ABOUT
+// WORK
+// SKILLS
+// CONTACT
