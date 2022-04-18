@@ -45,7 +45,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
 a:link,a:visited, a:active   {
-  color: #ffffff;
+  color: #be296a;
   text-decoration: none;
 }
 
@@ -56,7 +56,7 @@ a:hover {
 
 @media only screen and (max-width: 700px) {
   h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     text-shadow: 0.1em 0.1em 0 hsl(9000 50% 20%);
   }
 
