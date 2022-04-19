@@ -38,12 +38,12 @@ export default function About() {
       <div className="introduction">
         <h2>Nice to meet you.</h2>
         <p>
-          My name is Veli-Pekka Nurmi. I'm software developer with a performance
+          My name is Veli-Pekka Nurmi. I'm a software developer with a performance
           marketing background. I use my skill set to create and optimize
           engaging web services.
           <br />
           <br />
-          During the day I work as the Head of R&D in SaaShop. On my free time I
+          During the day I work as the Head of R&D in SaaShop. In my free time, I
           like to try out new technologies, hike with my dog, do jogging and
           play console games. I live in Helsinki, Finland.
           <br />
