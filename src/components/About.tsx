@@ -44,8 +44,8 @@ export default function About() {
           <br />
           <br />
           During the day I work as the Head of R&D in SaaShop. In my free time,
-          I like to try out new technologies, hike with my dog, do jogging and
-          play console games. I live in Helsinki, Finland.
+          I like to try out new technologies, hike with my spouse and dog, do
+          jogging and play console games. I live in Helsinki, Finland.
           <br />
           <br />
           <br />
