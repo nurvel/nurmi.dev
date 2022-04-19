@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/nurvel.github.io/static/css/main.b1fbf475.chunk.css",
-    "main.js": "/nurvel.github.io/static/js/main.96052fbf.chunk.js",
-    "main.js.map": "/nurvel.github.io/static/js/main.96052fbf.chunk.js.map",
-    "runtime-main.js": "/nurvel.github.io/static/js/runtime-main.10382572.js",
-    "runtime-main.js.map": "/nurvel.github.io/static/js/runtime-main.10382572.js.map",
-    "static/js/2.1eb0f27e.chunk.js": "/nurvel.github.io/static/js/2.1eb0f27e.chunk.js",
-    "static/js/2.1eb0f27e.chunk.js.map": "/nurvel.github.io/static/js/2.1eb0f27e.chunk.js.map",
-    "static/js/3.0a61189b.chunk.js": "/nurvel.github.io/static/js/3.0a61189b.chunk.js",
-    "static/js/3.0a61189b.chunk.js.map": "/nurvel.github.io/static/js/3.0a61189b.chunk.js.map",
-    "index.html": "/nurvel.github.io/index.html",
-    "static/css/main.b1fbf475.chunk.css.map": "/nurvel.github.io/static/css/main.b1fbf475.chunk.css.map",
-    "static/js/2.1eb0f27e.chunk.js.LICENSE.txt": "/nurvel.github.io/static/js/2.1eb0f27e.chunk.js.LICENSE.txt",
-    "static/media/bg-video-mobile.5664edf2.webm": "/nurvel.github.io/static/media/bg-video-mobile.5664edf2.webm"
+    "main.css": "/static/css/main.b1fbf475.chunk.css",
+    "main.js": "/static/js/main.96052fbf.chunk.js",
+    "main.js.map": "/static/js/main.96052fbf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f8586a0b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f8586a0b.js.map",
+    "static/js/2.ad399531.chunk.js": "/static/js/2.ad399531.chunk.js",
+    "static/js/2.ad399531.chunk.js.map": "/static/js/2.ad399531.chunk.js.map",
+    "static/js/3.0a61189b.chunk.js": "/static/js/3.0a61189b.chunk.js",
+    "static/js/3.0a61189b.chunk.js.map": "/static/js/3.0a61189b.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.b1fbf475.chunk.css.map": "/static/css/main.b1fbf475.chunk.css.map",
+    "static/js/2.ad399531.chunk.js.LICENSE.txt": "/static/js/2.ad399531.chunk.js.LICENSE.txt",
+    "static/media/bg-video-mobile.5664edf2.webm": "/static/media/bg-video-mobile.5664edf2.webm"
   },
   "entrypoints": [
-    "static/js/runtime-main.10382572.js",
-    "static/js/2.1eb0f27e.chunk.js",
+    "static/js/runtime-main.f8586a0b.js",
+    "static/js/2.ad399531.chunk.js",
     "static/css/main.b1fbf475.chunk.css",
     "static/js/main.96052fbf.chunk.js"
   ]
