@@ -13,11 +13,28 @@ const Container = styled.div`
   .hero {
     text-align: center;
     position: absolute;
-    top: 45%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 650px;
     min-width: 300px;
+  }
+
+  .btn {
+    background-color: #ffffff;
+    padding: 20px 20px 20px 20px;
+    margin-top: 20px;
+    box-shadow: 8px 8px 0px 0px hsl(9000 50% 20%);
+    width: 150px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    @media only screen and (max-width: 700px) {
+      padding: 10px 10px 10px 10px;
+      font-size: 0.8rem;
+      width: 100px;
+      box-shadow: 5px 5px 0px 0px hsl(9000 50% 20%);
+    }
   }
 
   // background-image: url();
@@ -55,6 +72,9 @@ export default function Main() {
       </video>
       <div className="hero">
         <h1>I develop web services users love returning to.</h1>
+        <div className="btn">
+          <div>READ MORE</div>
+        </div>
       </div>
     </Container>
   );
