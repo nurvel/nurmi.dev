@@ -1,6 +1,7 @@
 import React from "react";
 import configData from "../common/config.json";
 import styled from "styled-components";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 
 // import _video from "../assets/img/bg-video.mp4";
 // import _video_mobile_mp4 from "../assets/img/bg-video-mobile.mp4";
@@ -29,6 +30,8 @@ const Container = styled.div`
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
+    font-weight: bold;
+
     @media only screen and (max-width: 700px) {
       padding: 10px 10px 10px 10px;
       font-size: 0.8rem;
@@ -72,9 +75,9 @@ export default function Main() {
       </video>
       <div className="hero">
         <h1>I develop web services users love returning to.</h1>
-        <div className="btn">
-          <div>READ MORE</div>
-        </div>
+        {/* <div className="btn"> */}
+          <AnchorLink className="btn" href="#about">READ MORE</AnchorLink>
+        {/* </div> */}
       </div>
     </Container>
   );
