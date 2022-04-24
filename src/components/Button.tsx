@@ -1,3 +1,5 @@
+import React from "react";
+
 import styled from "styled-components";
 import configData from "../common/config.json";
 import AnchorLink from "react-anchor-link-smooth-scroll";
