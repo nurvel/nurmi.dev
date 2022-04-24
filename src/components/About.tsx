@@ -1,3 +1,5 @@
+import React from "react";
+
 import styled from "styled-components";
 import configData from "../common/config.json";
 import ProfilePic from "../assets/img/veli-pekka-nurmi-profile.png";
