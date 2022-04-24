@@ -43,7 +43,7 @@ const ProfilePictureContainer = styled.div`
   @media (max-width: 700px) {
     img {
       width: auto;
-      height: 200px;
+      height: 250px;
     }
   }
 `;
