@@ -4,6 +4,7 @@ import configData from "./config.json";
 const GlobalStyle = createGlobalStyle`
   html, body {
     max-width: 100%;
+    width: 100%;
     overflow-x: hidden;
   }
 
@@ -15,7 +16,6 @@ const GlobalStyle = createGlobalStyle`
   .section {
   min-height: 100vh;
   padding: 1em;
-
 
   // CENTER SECTION CONTENT
   display: flex;

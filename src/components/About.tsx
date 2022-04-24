@@ -18,7 +18,9 @@ const GridContainer = styled.div`
 
   @media (max-width: ${configData.mobileThreshold}) {
     margin-top: 50px;
-    grid-template-columns: minmax(300px, 1fr);
+    grid-template-rows: min-content;
+    grid-template-columns: 1fr;
+    grid-row-gap: 0px;
     .gridItem:nth-of-type(2) {
       order: -1;
     }
@@ -37,8 +39,7 @@ const ProfilePictureContainer = styled.div`
   justify-content: center;
 
   @media (max-width: ${configData.mobileThreshold}) {
-    // TODO: image hides behind text in narrow & low screen
-    /* min-height: 0x; */
+    height: 250px;
     img {
       width: auto;
       height: 250px;
