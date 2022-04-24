@@ -74,7 +74,7 @@ export default function Main() {
         Your browser does not support the video tag.
       </video>
       <div className="hero">
-        <h1>I develop web services users love returning to.</h1>
+        <h1>Let's develop web services users love returning to.</h1>
         {/* <div className="btn"> */}
           <AnchorLink className="btn" href="#about">READ MORE</AnchorLink>
         {/* </div> */}
