@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import configData from "../common/config.json";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
 const Container = styled.div`
@@ -17,7 +18,7 @@ const Container = styled.div`
   align-items: center;
   justify-content: center;
 
-  @media only screen and (max-width: 700px) {
+  @media only screen and (max-width: ${configData.mobileThreshold}) {
     padding: 10px 10px 10px 10px;
     box-shadow: 5px 5px 0px 0px hsl(9000 50% 20%);
     font-size: 0.8rem;

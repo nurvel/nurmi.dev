@@ -13,5 +13,6 @@
     "ROOM": "../assets/img/bg-room.jpg",
     "SEA": "../assets/img/bg-sea.jpg",
     "WALL": "../assets/img/bg-wall.jpg"
-  }
+  },
+  "mobileThreshold": "700px"
 }

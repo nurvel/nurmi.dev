@@ -5,16 +5,11 @@ import ProfilePic from "../assets/img/veli-pekka-nurmi-profile.png";
 
 const Container = styled.div`
   background-color: ${configData.THEME_COLORS.DARK};
-
-  p {
-    line-height: 1.4;
-  }
 `;
 
 const GridContainer = styled.div`
   position: relative;
   margin-top: 100px;
-
 
   display: grid;
   grid-template-columns: repeat(1, 2fr 1fr);
@@ -22,7 +17,7 @@ const GridContainer = styled.div`
   gap: 10px;
   padding: 20px;
 
-  @media (max-width: 700px) {
+  @media (max-width: ${configData.mobileThreshold}) {
     margin-top: 50px;
     grid-template-columns: minmax(300px, 1fr);
     .gridItem:nth-of-type(2) {
@@ -31,12 +26,18 @@ const GridContainer = styled.div`
   }
 `;
 
+const AboutTextContainer = styled.div`
+  p {
+    line-height: 1.4;
+  }
+`;
+
 const ProfilePictureContainer = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 
-  @media (max-width: 700px) {
+  @media (max-width: ${configData.mobileThreshold}) {
     img {
       width: auto;
       height: 250px;
@@ -49,7 +50,7 @@ export default function About() {
   return (
     <Container className="about section" id="about">
       <GridContainer>
-        <div className="gridItem">
+        <AboutTextContainer className="gridItem">
           <h2>Nice to meet you.</h2>
           <p>
             My name is Veli-Pekka Nurmi. I'm a software developer with a
@@ -87,7 +88,7 @@ export default function About() {
               Email
             </a>
           </p>
-        </div>
+        </AboutTextContainer>
         <ProfilePictureContainer className="gridItem">
           <img src={ProfilePic} />{" "}
         </ProfilePictureContainer>
