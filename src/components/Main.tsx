@@ -6,18 +6,16 @@ import _video_mobile_webm from "../assets/img/bg-video-mobile.webm";
 import Button from "./Button";
 
 const Container = styled.div`
-  background-color: ${configData.THEME_COLORS.DARK};
-  min-height: 100vh;
-  min-width: 100vw;
+  background-color: ${configData.THEME_COLORS.DARK_VIOLET};
 
   .hero {
-    text-align: center;
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20vh;
     max-width: 650px;
     min-width: 300px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
   }
 
   .btnContainer {

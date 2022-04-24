@@ -1,24 +1,14 @@
-import React from "react";
 import styled from "styled-components";
 import configData from "../common/config.json";
 import ProfilePic from "../assets/img/veli-pekka-nurmi-profile.png";
 
 const Container = styled.div`
-  background-color: ${configData.THEME_COLORS.DARK};
-  min-height: 100vh;
-
-  p {
-    line-height: 1.4;
-  }
+  background-color: ${configData.THEME_COLORS.DARK_VIOLET};
 `;
 
 const GridContainer = styled.div`
   position: relative;
   margin-top: 100px;
-
-  // center content - to global level?
-  left: 50%;
-  transform: translate(-50%);
 
   display: grid;
   grid-template-columns: repeat(1, 2fr 1fr);
@@ -26,21 +16,30 @@ const GridContainer = styled.div`
   gap: 10px;
   padding: 20px;
 
-  @media (max-width: 700px) {
+  @media (max-width: ${configData.mobileThreshold}) {
     margin-top: 50px;
-    grid-template-columns: minmax(300px, 1fr);
+    grid-template-rows: min-content;
+    grid-template-columns: 1fr;
+    grid-row-gap: 0px;
     .gridItem:nth-of-type(2) {
       order: -1;
     }
   }
 `;
 
+const AboutTextContainer = styled.div`
+  p {
+    line-height: 1.4;
+  }
+`;
+
 const ProfilePictureContainer = styled.div`
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
 
-  @media (max-width: 700px) {
+  @media (max-width: ${configData.mobileThreshold}) {
+    height: 250px;
     img {
       width: auto;
       height: 250px;
@@ -53,7 +52,7 @@ export default function About() {
   return (
     <Container className="about section" id="about">
       <GridContainer>
-        <div className="gridItem">
+        <AboutTextContainer className="gridItem">
           <h2>Nice to meet you.</h2>
           <p>
             My name is Veli-Pekka Nurmi. I'm a software developer with a
@@ -91,7 +90,7 @@ export default function About() {
               Email
             </a>
           </p>
-        </div>
+        </AboutTextContainer>
         <ProfilePictureContainer className="gridItem">
           <img src={ProfilePic} />{" "}
         </ProfilePictureContainer>

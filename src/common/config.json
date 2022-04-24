@@ -1,17 +1,18 @@
 {
   "THEME_COLORS": {
-    "CREAM": "#FDF5DF",
-    "BLUE": "#5EBEC4",
-    "CYAN": "#2CCCC3",
-    "PINK": "#F92C85",
-    "YELLOW": "#eba63f",
-    "VIOLET": "#251124",
-    "DARK": "#251124"
+    "BRIGHT_PINK": "#F72585",
+    "DARK_PINK": "#BE296A",
+    "VIOLET": "#7209B7",
+    "DARK_BLUE": "#3A0CA3",
+    "LIGHT_BLUE": "#3A0CA3",
+    "CYAN": "#3A0CA3",
+    "DARK_VIOLET": "#251124"
   },
   "BACKGROUND_IMAGES": {
     "LIGHTS": "../assets/img/bg-lights.jpg",
     "ROOM": "../assets/img/bg-room.jpg",
     "SEA": "../assets/img/bg-sea.jpg",
     "WALL": "../assets/img/bg-wall.jpg"
-  }
+  },
+  "mobileThreshold": "700px"
 }
