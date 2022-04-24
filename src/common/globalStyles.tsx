@@ -1,4 +1,5 @@
 import { createGlobalStyle } from "styled-components";
+import configData from "./config.json";
 
 const GlobalStyle = createGlobalStyle`
   html, body {
@@ -45,12 +46,12 @@ const GlobalStyle = createGlobalStyle`
   }
 
   a:link,a:visited, a:active   {
-    color: #be296a;
+    color: ${configData.THEME_COLORS.DARK_PINK};
     text-decoration: none;
   }
 
   a:hover {
-    color: #F92C85;
+    color: ${configData.THEME_COLORS.BRIGHT_PINK};
     text-decoration: none;
   }
 

@@ -6,7 +6,7 @@ import _video_mobile_webm from "../assets/img/bg-video-mobile.webm";
 import Button from "./Button";
 
 const Container = styled.div`
-  background-color: ${configData.THEME_COLORS.DARK};
+  background-color: ${configData.THEME_COLORS.DARK_VIOLET};
 
   .hero {
     position: absolute;

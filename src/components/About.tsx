@@ -1,10 +1,9 @@
-import React from "react";
 import styled from "styled-components";
 import configData from "../common/config.json";
 import ProfilePic from "../assets/img/veli-pekka-nurmi-profile.png";
 
 const Container = styled.div`
-  background-color: ${configData.THEME_COLORS.DARK};
+  background-color: ${configData.THEME_COLORS.DARK_VIOLET};
 `;
 
 const GridContainer = styled.div`
@@ -38,6 +37,8 @@ const ProfilePictureContainer = styled.div`
   justify-content: center;
 
   @media (max-width: ${configData.mobileThreshold}) {
+    // TODO: image hides behind text in narrow & low screen
+    /* min-height: 0x; */
     img {
       width: auto;
       height: 250px;
