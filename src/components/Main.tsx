@@ -11,13 +11,11 @@ const Container = styled.div`
   min-width: 100vw;
 
   .hero {
-    text-align: center;
     position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    top: 20vh;
     max-width: 650px;
     min-width: 300px;
+    text-align: center;
   }
 
   .btnContainer {

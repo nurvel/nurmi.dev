@@ -16,9 +16,6 @@ const GridContainer = styled.div`
   position: relative;
   margin-top: 100px;
 
-  // center content - to global level?
-  left: 50%;
-  transform: translate(-50%);
 
   display: grid;
   grid-template-columns: repeat(1, 2fr 1fr);
