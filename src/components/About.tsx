@@ -5,7 +5,6 @@ import ProfilePic from "../assets/img/veli-pekka-nurmi-profile.png";
 
 const Container = styled.div`
   background-color: ${configData.THEME_COLORS.DARK};
-  min-height: 100vh;
 
   p {
     line-height: 1.4;

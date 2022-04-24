@@ -7,8 +7,6 @@ import Button from "./Button";
 
 const Container = styled.div`
   background-color: ${configData.THEME_COLORS.DARK};
-  min-height: 100vh;
-  min-width: 100vw;
 
   .hero {
     position: absolute;

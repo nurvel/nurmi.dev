@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
   min-height: 100vh;
   padding: 1em;
 
+
   // CENTER SECTION CONTENT
   display: flex;
   justify-content: center;
