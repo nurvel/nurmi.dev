@@ -5,11 +5,9 @@ import { useRef } from "react";
 import GlobalStyle from "./common/globalStyles";
 import styled from "styled-components";
 
-import Main from "./components/Main";
-import About from "./components/About";
+import Main from "./pages/Main";
+import About from "./pages/About";
 import Header from "./components/Header";
-// import Timeline from "./components/Timeline";
-// import Contact from "./components/Contact";
 
 const Container = styled.div``;
 
@@ -28,8 +26,6 @@ export default function App() {
       <section ref={scrollRef}>
         <Main />
         <About />
-        {/* <Timeline />
-        <Contact /> */}
       </section>
     </Container>
   );
