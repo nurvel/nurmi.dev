@@ -1,17 +1,17 @@
 {
-  "main.css": "/static/css/main.ea9e555e.chunk.css",
-  "main.js": "/static/js/main.f517483e.chunk.js",
-  "main.js.map": "/static/js/main.f517483e.chunk.js.map",
-  "runtime~main.js": "/static/js/runtime~main.bc337692.js",
-  "runtime~main.js.map": "/static/js/runtime~main.bc337692.js.map",
-  "static/js/2.e5288a45.chunk.js": "/static/js/2.e5288a45.chunk.js",
-  "static/js/2.e5288a45.chunk.js.map": "/static/js/2.e5288a45.chunk.js.map",
-  "static/js/3.ba5a0b1d.chunk.js": "/static/js/3.ba5a0b1d.chunk.js",
-  "static/js/3.ba5a0b1d.chunk.js.map": "/static/js/3.ba5a0b1d.chunk.js.map",
-  "index.html": "/index.html",
-  "precache-manifest.156cb5a962d45104a92d96e2d925e871.js": "/precache-manifest.156cb5a962d45104a92d96e2d925e871.js",
-  "service-worker.js": "/service-worker.js",
-  "static/css/main.ea9e555e.chunk.css.map": "/static/css/main.ea9e555e.chunk.css.map",
-  "static/media/bg-video-mobile.webm": "/static/media/bg-video-mobile.00062cb0.webm",
-  "static/media/veli-pekka-nurmi-profile.png": "/static/media/veli-pekka-nurmi-profile.99acb053.png"
+  "files": {
+    "main.css": "/static/css/main.046c0f8a.css",
+    "main.js": "/static/js/main.de66610a.js",
+    "static/js/496.2862f400.chunk.js": "/static/js/496.2862f400.chunk.js",
+    "static/media/bg-video-mobile.webm": "/static/media/bg-video-mobile.5664edf2fb8c3656c9fe.webm",
+    "static/media/veli-pekka-nurmi-profile.png": "/static/media/veli-pekka-nurmi-profile.981170c2bad9afb1c2bc.png",
+    "index.html": "/index.html",
+    "main.046c0f8a.css.map": "/static/css/main.046c0f8a.css.map",
+    "main.de66610a.js.map": "/static/js/main.de66610a.js.map",
+    "496.2862f400.chunk.js.map": "/static/js/496.2862f400.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.046c0f8a.css",
+    "static/js/main.de66610a.js"
+  ]
 }
