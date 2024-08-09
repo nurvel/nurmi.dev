@@ -16,7 +16,7 @@ export default function App() {
   useScrollSnap({
     ref: scrollRef,
     duration: 10,
-    delay: 0,
+    // delay: 0,
   });
 
   return (
