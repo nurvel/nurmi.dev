@@ -62,9 +62,14 @@ export default function About() {
             optimize engaging web services.
             <br />
             <br />
-            During the day I work as the Head of R&D in SaaShop. In my free
-            time, I like to try out new technologies, hike with my spouse and
-            dog, do jogging and play console games. I live in Helsinki, Finland.
+            During the day I work as a software consultant & team lead at{" "}
+            <a href="https://twoday.fi/" target="_blank" rel="noreferrer">
+              {" "}
+              twoday
+            </a>
+            . In my free time, I like to try out new technologies, hike with my
+            spouse and dog, do jogging and play console games. I live in
+            Helsinki, Finland.
             <br />
             <br />
             <br />
@@ -94,7 +99,7 @@ export default function About() {
           </p>
         </AboutTextContainer>
         <ProfilePictureContainer className="gridItem">
-          <img src={ProfilePic} />{" "}
+          <img src={ProfilePic} alt="Veli-Pekka Nurmi" />{" "}
         </ProfilePictureContainer>
       </GridContainer>
     </Container>
